@@ -20,7 +20,7 @@ app.get('/le-tempo/forecast/:ll', function(req, res) {
     .set('Content-Type', 'application/json')
     .accept('application/json')
     .end(function(e, data) {
-      if (e) next(e);
+      if (e) console.log(e);
       console.log(data.body);
       return res.render('index', {data: data.body});
     });
