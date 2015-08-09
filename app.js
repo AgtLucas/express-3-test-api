@@ -11,7 +11,6 @@ var token = process.env.FORECAST_TOKEN;
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-app.use(express.logger());
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
