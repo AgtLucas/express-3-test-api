@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/express-3-test-api/issues"
   },
-  "homepage": "https://github.com/AgtLucas/express-3-test-api#readme"
+  "homepage": "https://github.com/AgtLucas/express-3-test-api#readme",
+  "dependencies": {
+    "express": "^3.21.2"
+  }
 }
