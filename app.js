@@ -16,3 +16,5 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
   res.render('index', {title: 'E3'});
 });
+
+app.listen(3000);
