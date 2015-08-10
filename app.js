@@ -14,6 +14,10 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/public'));
 
+app.get('/', function(req, res) {
+  res.send('Ok!');
+});
+
 app.get('/le-tempo/forecast/:ll', function(req, res) {
   request
     .get(api + token + '/' + req.params.ll)
