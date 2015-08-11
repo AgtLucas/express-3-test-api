@@ -18,7 +18,9 @@
   "homepage": "https://github.com/AgtLucas/express-3-test-api#readme",
   "dependencies": {
     "express": "3.20.0",
+    "express-react-views": "^0.8.2",
     "jade": "^1.11.0",
+    "react": "^0.13.3",
     "superagent": "^1.3.0"
   }
 }
